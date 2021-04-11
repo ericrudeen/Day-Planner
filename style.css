@@ -1,0 +1,94 @@
+/* (Global) root colors */
+:root {
+  --blue: #005B8D;
+  --tan: #FFE5D9;
+  --brown: #BA7363;
+  --pink: #F4A896;
+  --purple: #BD80BA;
+  --lightBrown: #BEA6A0;
+  --gray: #E5DBCE;
+}
+
+body {
+  font-family: 'Dela Gothic One';
+  font-size: 16px;
+  line-height: 1;
+  background-color: var(--tan);
+}
+
+header {
+  background-color: var(--pink)!important;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid black;
+  
+}
+
+.hour {
+  background-color: var(--brown);
+  color: #ffffff;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.past {
+  background-color: var(--gray);
+  color: black;
+}
+
+.present {
+  background-color: var(--purple);
+  color: white;
+}
+
+.future {
+  background-color: var(--lightBrown);
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+  width: 75px;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.container {
+  padding: 2% 4%;
+}
