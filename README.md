@@ -20,4 +20,4 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
-Links to the page: https://github.com/ericrudeen/Day-Planner/
+Links to the page: https://ericrudeen.github.io/Day-Planner/
